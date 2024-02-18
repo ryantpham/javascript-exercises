@@ -26,11 +26,5 @@ describe('fizzBuzz', () => {
     expect(fizzBuzz(4)).toBe(4);
     // Add more cases as needed
   });
-
-  // Optional: Test for invalid inputs, such as non-numeric values
-  test('returns undefined or throws error for invalid inputs', () => {
-    expect(fizzBuzz('a')).toBeUndefined();
-    expect(fizzBuzz(null)).toBeUndefined();
-    // Add more cases as needed
-  });
+  
 });

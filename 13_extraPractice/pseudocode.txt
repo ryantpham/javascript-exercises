@@ -1,0 +1,13 @@
+01_fizzBuzz 
+Fizz buzz is a group word game for children to teach them about division. Players take turns to count incrementally, replacing any number divisible by three with the word "fizz", and any number divisible by five with the word "buzz", and any number divisible by both three and five with the word "fizzbuzz"
+
+PROGRAM START //
+Player selects any number to be counted up to
+Begin with a counter starting at 0
+Count the number up to the player selected number
+The counter increments by 1 up until the player selected number
+If number is divisible by 3 return "fizz"
+If number is divisible by five return "buzz"
+If number is divisible by both 3 and 5 return "fizzbuzz"
+// PROGRAM ENDS
+
