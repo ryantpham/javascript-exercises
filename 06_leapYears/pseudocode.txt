@@ -1,0 +1,9 @@
+Leap Years
+
+START Program
+The function isLeapYear takes an integer year as input.
+It first checks if the year is divisible by 400. If so, it returns true because such years are always leap years.
+If the year is not divisible by 400, it then checks if it is divisible by 100. Years divisible by 100 but not by 400 are not leap years, so it returns false in this case.
+If the year is not divisible by 100, it checks if it is divisible by 4. Years divisible by 4 (and not by 100) are leap years, so it returns true.
+If none of the above conditions are met, the function returns false, indicating that it is not a leap year.
+END Program
