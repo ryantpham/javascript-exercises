@@ -17,4 +17,11 @@ function fizzBuzz(num){
 
 }
 
+//Multiply the number
+function multiply(number){
+    digits = number.toString().length;
+    return number *(5*digits)
+}
+console.log(multiply(200)); // expect 15
+
 module.exports = fizzBuzz;
